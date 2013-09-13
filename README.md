@@ -1,6 +1,12 @@
-[oracle 12c](http://www.oracle.com/technetwork/jp/database/enterprise-edition/overview/index.html)のインストール・設定・動作検証を行う為のサーバ
+[Oracle Database 12c](http://www.oracle.com/technetwork/jp/database/enterprise-edition/overview/index.html)のインストール・設定・動作検証を行う為のサーバ
 
 ## Usage
+
+> HostOS上で操作
+
+以下urlから`Linux x86-64`用インストーラをダウンロードし、`shared/installer`ディレクトリへ格納
+
+- http://www.oracle.com/technetwork/jp/database/enterprise-edition/downloads/index.html
 
 ### サーバセットアップ
 
@@ -13,7 +19,7 @@
     root $ passwd oracle                # oracleユーザパスワード設定（パスワードは任意）
     root $ shutdown -r now              # サーバ再起動
 
-#### 言語を日本語に変更
+### 言語を日本語に変更
 
 > デスクトップ環境から`oracle`ユーザでログイン
 
@@ -23,7 +29,7 @@
 3. OS再起動
     - 言語選択反映の為、再起動が必要
 
-#### Oracle12cインストール
+### Oracle Database 12cインストール
 
 > デスクトップ環境から`oracle`ユーザでログイン
 
