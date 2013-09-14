@@ -9,7 +9,7 @@
 
 ## Usage
 
-> HostOS上で操作
+> Host OS
 
 以下urlから`Linux x86-64`用インストーラをダウンロードし、`shared/installer`ディレクトリへ格納
 
@@ -17,7 +17,7 @@
 
 ### サーバセットアップ
 
-> HostOSコンソール上で実行
+> Host OS
 
     host $ vagrant up                   # 仮想OS作成・起動
     host $ vagrant ssh                  # 仮想OSへssh接続
@@ -28,6 +28,7 @@
 
 ### 言語を日本語に変更
 
+> Guest OS
 > デスクトップ環境から`oracle`ユーザでログイン
 
 1. ツールバーより [System] > [Administration] > [Language] を選択
@@ -38,6 +39,7 @@
 
 ### Oracle Database 12cインストール
 
+> Guest OS
 > デスクトップ環境から`oracle`ユーザでログイン
 
 1. ツールバーより [アプリケーション] > [システムツール] > [端末] を選択
