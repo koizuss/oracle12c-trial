@@ -57,4 +57,3 @@ unzip /vagrant/shared/installer/linuxamd64_12c_database_2of2.zip
 # cat /etc/fstab
 
 echo "setup successful ------------------------"
-echo "after execute `passwd oracle` & reboot"
